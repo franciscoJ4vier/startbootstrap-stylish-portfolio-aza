@@ -90,7 +90,10 @@
     scroll-behavior: smooth;
   }
 }
-
+#perfil{
+  width: 150px;
+  height: 150px;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -4961,7 +4964,7 @@ textarea.form-control-lg {
     border-left-width: var(--bs-list-group-border-width);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .list-group-horizontal-xl {
     flex-direction: row;
   }
@@ -5155,7 +5158,7 @@ textarea.form-control-lg {
 .btn-close:disabled, .btn-close.disabled {
   pointer-events: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
+    -moz-user-select: none;
           user-select: none;
   opacity: 0.25;
 }
